@@ -23,16 +23,15 @@ The scope is intentionally kept minimal to focus on stability, usability, and cl
 ### Frontend
 - React
 - Vite
-- Tailwind CSS
-- Axios
+- MUI
+- tanstack react query
+- yup validation
 - React Router DOM
 
 ### Backend
 - FastAPI
 - Python
 - MongoDB
-- Motor (Async MongoDB Driver)
-- Pydantic (Data Validation)
 
 ### Deployment
 - Frontend: Vercel
@@ -41,4 +40,24 @@ The scope is intentionally kept minimal to focus on stability, usability, and cl
 
 ---
 
-## Project Structure
+
+---
+
+## Steps to Run the Project Locally
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- Python (v3.9+)
+- MongoDB (running locally)
+
+---
+
+### 1. Backend Setup
+
+- .env file - DATABASE_URL="mongodb://localhost:27017"
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate   
+pip install -r requirements.txt
