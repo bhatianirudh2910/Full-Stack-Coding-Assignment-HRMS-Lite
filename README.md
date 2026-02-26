@@ -33,6 +33,8 @@ The scope is intentionally kept minimal to focus on stability, usability, and cl
 - Python
 - MongoDB
 
+can check the api swagger from https://full-stack-coding-assignment-hrms-lite-s1l0.onrender.com/docs
+
 ### Deployment
 - Frontend: Vercel
 - Backend: Render
