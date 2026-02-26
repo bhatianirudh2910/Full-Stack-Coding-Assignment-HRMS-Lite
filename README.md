@@ -54,13 +54,13 @@ The scope is intentionally kept minimal to focus on stability, usability, and cl
 
 ### 1. Backend Setup
 
-Create a `.env` file inside the `backend` folder:
+Create a `.env` file inside the `backend` folder with the following content:
 
-```env
-MONGO_URI=mongodb://localhost:27017 
+MONGO_URI=mongodb://localhost:27017
 
-```bash
+Then run the following commands:
+
 cd backend
 python -m venv venv
-venv\Scripts\activate   
+venv\Scripts\activate   # Windows
 pip install -r requirements.txt
