@@ -14,7 +14,11 @@ The system allows an admin to:
 - Mark daily attendance for employees
 - View attendance history per employee
 
-The scope is intentionally kept minimal to focus on stability, usability, and clean architecture rather than excessive features.
+Bonus points - 
+1. Filter attendance records by date
+2. Display total present days per employee
+3. Basic dashboard summary (counts or tables)
+
 
 ---
 
